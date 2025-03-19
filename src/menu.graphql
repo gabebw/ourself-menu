@@ -1,0 +1,73 @@
+"""
+A single dish with a `price`, or one that has different options with different
+`price_options`. For example:
+
+```
+French Onion or Soup of the Day Combos
+  with small green salad, fresh fruit or house pasta 7.25
+  with half pasta of the day 8.75
+```
+"""
+type Dish {
+  name: String!
+  description: String
+  category: Category!
+  subcategory: Subcategory
+  price: Float
+  price_options: [DishPriceOption!]
+}
+
+"""
+Price options that apply to all dishes within a (sub)category. For example:
+```
+  half sandwich 7.95
+  full sandwich 9.25
+```
+"""
+type CategoryOrSubcategoryPriceOption {
+  description: String!
+  price: Float!
+}
+
+"""
+Price options for a given dish. For example, the uno/dos/tres below:
+```
+  Choice of Beef, Chicken, Cheese or Veggie
+    uno 8.50
+    dos 9.95
+    tres 11.50
+```
+"""
+type DishPriceOption {
+  description: String!
+  price: Float!
+}
+
+"""
+For example: Appetizers.
+"""
+type Category {
+  name: String!
+  description: String
+  subcategory: Subcategory
+  price_options: [CategoryOrSubcategoryPriceOption!]
+}
+
+"""
+For example: "Hot", within the category "Sandwiches".
+"""
+type Subcategory {
+  name: String!
+  description: String
+  price_options: [CategoryOrSubcategoryPriceOption!]
+}
+
+type Query {
+  categories: [Category!]!
+  subcategories: [String!]!
+  dishes: [Dish!]!
+  """
+  Test if the API is responding correctly. It will return "Pong".
+  """
+  ping: String!
+}

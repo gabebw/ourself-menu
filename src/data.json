@@ -1,0 +1,204 @@
+{
+  "categories": [
+    {
+      "name": "Appetizers"
+    },
+    {
+      "name": "Entrees"
+    },
+    {
+      "name": "Sandwiches",
+      "description": "Served with choice of house pasta salad, green salad, or fresh fruit. For an additional $1.50, you can “upgrade” (by substituting) to ½ pasta salad of the day, French onion soup or soup of the day.",
+      "subcategories": [
+        {
+          "name": "Cold",
+          "description": "Choice of sourdough, whole wheat, or rye bread",
+          "price_options": [
+            {
+              "description": "half sandwich",
+              "price": 7.95
+            },
+            {
+              "description": "full sandwich",
+              "price": 9.25
+            }
+          ]
+        },
+        {
+          "name": "Hot",
+          "description": "Choice of whole wheat or cheese & onion bun"
+        }
+      ]
+    },
+    {
+      "name": "Soup & Salad Combos"
+    },
+    {
+      "name": "Fajitas"
+    }
+  ],
+  "dishes": [
+    {
+      "name": "Iceberg Wedge Salad with House Cured Bacon",
+      "description": "tomato salsa gorgonzola",
+      "price": 7.50,
+      "category": "Appetizers"
+    },
+    {
+      "name": "Sautéed Shredded Brussels Sprouts",
+      "description": "bacon hazelnuts gorgonzola",
+      "price": 6.95,
+      "category": "Appetizers"
+    },
+    {
+      "name": "Pecan Crusted Utah Goat Cheese with Basil-Mint Pesto",
+      "description": "grilled tomato salsa crostini",
+      "price": 6.95,
+      "category": "Appetizers"
+    },
+    {
+      "name": "Chicken and Cabbage Eggrolls",
+      "description": "hot & sour dipping sauce",
+      "price": 6.95,
+      "category": "Appetizers"
+    },
+    {
+      "name": "Farfalle Pasta with Braised Pork in Tomato Cream",
+      "description": "capers butternut squash kale",
+      "price": 12.95,
+      "category": "Entrees"
+    },
+    {
+      "name": "Stout Braised Bratwusrt",
+      "description": "horseradish mashed potatoes roasted root veggies grilled onion",
+      "price": 13.95,
+      "category": "Entrees"
+    },
+    {
+      "name": "Salmon & Crispy Tofu in Yellow Curry Sauce",
+      "description": "vegetable sauté golden raisin chutney",
+      "price": 15.95,
+      "category": "Entrees"
+    },
+    {
+      "name": "Sesame Shrimp",
+      "description": "udon noodles ramen broth shiitake mushrooms bean sprouts scallions",
+      "price": 13.95,
+      "category": "Entrees"
+    },
+    {
+      "name": "Turkey & Avocado",
+      "description": "with tomato",
+      "category": "Sandwiches",
+      "subcategory": "Cold"
+    },
+    {
+      "name": "Pub Club",
+      "description": "turkey, bacon. lettuce, tomato",
+      "category": "Sandwiches",
+      "subcategory": "Cold"
+    },
+    {
+      "name": "Rare Roast Beef & Swiss",
+      "description": "sweet-hot mustard, lettuce, red onion",
+      "category": "Sandwiches",
+      "subcategory": "Cold"
+    },
+    {
+      "name": "Veggie",
+      "description": "pepper jack, avocado, sprout, tomato",
+      "category": "Sandwiches",
+      "subcategory": "Cold"
+    },
+    {
+      "name": "Southwest Chicken Breast",
+      "description": "Grilled Onion, Poblano Pepper, Tomato, Lettuce, Jack Cheese",
+      "category": "Sandwiches",
+      "subcategory": "Hot",
+      "price": 9.50
+    },
+    {
+      "name": "Portobello",
+      "description": "Fresh Mozzarella Caramelized Onion, Roasted Pepper, Tomato, Field Greens, Basil Aioli",
+      "category": "Sandwiches",
+      "subcategory": "Hot",
+      "price": 9.50
+    },
+    {
+      "name": "Chipotle BBQ Pork Sandwich",
+      "description": "with Pickled Jalapeño Slaw",
+      "category": "Sandwiches",
+      "subcategory": "Hot",
+      "price": 9.50
+    },
+    {
+      "name": "Bacon Burger",
+      "description": "Swiss, Lettuce, Tomato",
+      "category": "Sandwiches",
+      "subcategory": "Hot",
+      "price": 9.25
+    },
+    {
+      "name": "Mexi Burger",
+      "description": "Pepper Relish, Pepper Jack, Tomato, Lettuce, Guacamole",
+      "category": "Sandwiches",
+      "subcategory": "Hot",
+      "price": 9.25
+    },
+    {
+      "name": "Herb Marinated Top Sirloin",
+      "description": "Crimini Mushrooms, Caramelized Onion, Gorgonzola, Basil Aioli, Served Open Faced on Fococcia",
+      "category": "Sandwiches",
+      "subcategory": "Hot",
+      "price": 10.95
+    },
+    {
+      "name": "Roast Beef with Ancho Au Jus",
+      "description": "Jack Cheese, Grilled Onions, Served on Crumb Bros. Baguette",
+      "category": "Sandwiches",
+      "subcategory": "Hot",
+      "price": 9.75
+    },
+    {
+      "name": "Blackened Catfish",
+      "description": "Creole Peppers & Onions, Fresh Herb Aioli, Served on house made Sourdough",
+      "category": "Sandwiches",
+      "subcategory": "Hot",
+      "price": 9.75
+    },
+    {
+      "name": "French Onion or Soup of the Day",
+      "category": "Soup & Salad Combos",
+      "price": 4.95
+    },
+    {
+      "name": "French Onion or Soup of the Day Combos",
+      "category": "Soup & Salad Combos",
+      "price_options": [
+        {
+          "description": "with small green salad, fresh fruit or house pasta",
+          "price": 7.25
+        },
+        {
+          "description": "with half pasta of the day",
+          "price": 8.75
+        }
+      ]
+    },
+    {
+      "name": "Served with red rice, black beans, grilled tomato salad, choice of corn or flour tortillas",
+      "category": "Fajitas",
+      "price": 10.95
+    },
+    {
+      "name": "Chicken",
+      "description": "Onions, Poblano and Bell Peppers, Guacamole, Two Salsas",
+      "category": "Fajitas"
+    },
+    {
+      "name": "Sirloin Steak",
+      "description": "Onions, Poblano and Bell Peppers, Carrots, Onion, Guacamole, Two Salsas",
+      "category": "Fajitas"
+    }
+  ]
+}
