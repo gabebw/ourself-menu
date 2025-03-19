@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2",
+    "graphql": "^16.10.0",
+    "graphql-http": "^1.22.4",
+    "ruru": "^2.0.0-beta.19"
+  },
+  "type": "module",
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "server": "yarn tsx watch src/server.ts"
+  },
+  "packageManager": "yarn@4.7.0"
+}
