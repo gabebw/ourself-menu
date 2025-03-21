@@ -19,7 +19,7 @@
     "typescript": "^5.8.2"
   },
   "scripts": {
-    "server": "yarn tsx watch --include src/menu.graphql src/index.ts",
+    "server": "yarn tsx watch --include src/menu.graphql --include src/data.json src/index.ts",
     "test": "NODE_ENV=test jest --testTimeout=10000"
   },
   "packageManager": "yarn@4.7.0"

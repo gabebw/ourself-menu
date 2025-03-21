@@ -7,6 +7,9 @@ To run it locally:
 
 The app runs on <http://localhost:3000>. There's a GraphQL playground available at <http://localhost:3000/playground>.
 
+The app will automatically reload if any of the `src` files are changed, or if
+`menu.graphql` or `data.json` are changed.
+
 ## Tests
 
 To run the tests:
